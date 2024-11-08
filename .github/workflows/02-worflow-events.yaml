@@ -1,8 +1,9 @@
 name: 02-WorflowEvents
 
 on: 
-  schedule:
-    - cron: '1 1 * * *'
+  pull_request: 
+    branches: 
+      - main
 
 jobs:
   echo:
