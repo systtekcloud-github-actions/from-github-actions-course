@@ -4,6 +4,7 @@ on:
   push: 
     branches: 
       - main
+      - develop
 
 run-name: Deploy by @${{ github.actor }}
 
