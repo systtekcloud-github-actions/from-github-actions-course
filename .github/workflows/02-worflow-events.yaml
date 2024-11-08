@@ -5,6 +5,8 @@ on:
     branches: 
       - main
 
+run-name: Deploy by @${{ github.actor }}
+
 jobs:
   echo:
     runs-on: ubuntu-latest
