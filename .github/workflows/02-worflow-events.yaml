@@ -1,9 +1,10 @@
 name: 02-WorflowEvents
 
 on: 
-  pull_request: 
+  push: 
     branches: 
       - main
+      - develop
 
 run-name: Deploy by @${{ github.actor }}
 
