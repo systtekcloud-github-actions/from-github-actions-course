@@ -1,8 +1,6 @@
 name: 01-BuildingBlocks
 
-
 on: push
-
 
 jobs:
   echo-hello:
